@@ -1,0 +1,61 @@
+{
+  "pages":[
+    "shoppingCart/orderDetails/orderDetails",   
+    
+    "index/index",
+    "good/index",
+    "find/index",
+    "mine/index",
+    "shoppingCart/index",
+ 
+     "mine/setting/setting",
+    "logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "吃货的店",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+      "list":[
+        {
+          "pagePath":"index/index",
+          "iconPath":"images/icon.png",
+          "selectedIconPath":"images/touxiang.png",
+          "text":"首页"
+        },{
+          "pagePath":"good/index",
+          "iconPath":"images/icon.png",
+          "selectedIconPath":"images/touxiang.png",
+          "text":"货物"
+        },{
+          "pagePath":"find/index",
+          "iconPath":"images/icon.png",
+          "selectedIconPath":"images/touxiang.png",
+          "text":"寻找"
+        },{
+          "pagePath":"shoppingCart/index",
+          "iconPath":"images/icon.png",
+          "selectedIconPath":"images/touxiang.png",
+          "text":"购物车"
+        },{
+          "pagePath":"mine/index",
+          "iconPath":"images/icon.png",
+          "selectedIconPath":"images/touxiang.png",
+          "text":"我的"
+        }
+      ] 
+  } ,
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

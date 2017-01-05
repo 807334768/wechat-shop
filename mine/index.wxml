@@ -1,0 +1,54 @@
+<view class='bg'>
+    <button class='setting' url="../setting/setting" >设置</button>
+    <image src="../images/touxiang.png" class='touxiang'></image>
+    <text class='userName'>Yeon</text>
+</view>
+<view class='order'>
+    <view class='line'>
+        全部订单
+    </view>
+  <view>
+    <view class='iconList'>
+        <image src="../images/icon.png" class='icon'></image>
+        待付款
+    </view>
+     <view class='iconList'>
+        <image src="../images/icon.png" class='icon'></image>
+        待发货
+    </view>
+     <view class='iconList'>
+        <image src="../images/icon.png" class='icon'></image>
+        待收货
+    </view>
+     <view class='iconList'>
+        <image src="../images/icon.png" class='icon'></image>
+        待评价
+    </view>    
+  </view>
+       
+</view>
+
+<view class='order'>
+    <view class='line'>
+      <text> 订单编号：78965463482</text>
+       <text class='red floatRight'>待付款</text>
+    </view>
+ 
+    <view class='orderList'>
+        <image src="../images/cherry.png" class='iconSnapshot'></image>
+        <view class='detailsSnapshot'>
+            <view class='title'>泰山脚下的大樱桃</view>
+            <view class='weight'>5000gg/1份</view>
+        </view>
+        <text class='number'>x2</text>
+    </view>    
+   <view class='orderOperator'>
+        <text class='red count'>合计：￥108</text>
+        <navigator url='../shoppingCart/orderDetails/orderDetails' class='pay'>付款</navigator>
+        <navigator url='../shoppingCart/orderDetails/orderDetails' class='cancle'>取消订单</navigator>
+   </view>
+    
+    
+
+       
+</view>

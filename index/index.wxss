@@ -1,0 +1,47 @@
+/* index/index.wxss */
+ 
+.goods{
+ background:#ffffff;
+  border: 1px solid red;
+  overflow:hidden;
+  border-top:20px #f5f7f9 solid;
+}
+
+.goods .goodsImg{
+    width: 50%;
+    float: left;
+}
+.goods .goodsDetails{
+    display: inline;
+    width: 49.5%;
+    border: 1px solid blue;
+    float: left;
+    background: white;
+}
+.clock{
+    width: 1.3rem;
+    height:1.3rem;
+}
+.goodsTitle{
+    font-size:1.5rem;
+    display: inline-block;
+}
+.goodsDescribe{
+    font-size:1rem;
+    color:#7e838c;
+    line-height: 1.4rem;
+    display: inline-block;
+}
+.timeLimit{
+    color:#ff3939;
+    font-size: 1.2rem;
+    line-height:1.7rem;
+}
+.btnDetails{
+     color:#ff3939;
+     width: 7.7rem;
+     height:2.4re;
+     border-radius:0.2rem;
+     border:#ff3939 1px solid ;
+     float: left;
+}

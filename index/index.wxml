@@ -1,0 +1,36 @@
+<view>
+    <swiper indicator-dots="{{indicatorDots}}"  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">  
+        <block wx:for="{{imgUrls}}">  
+            <swiper-item class="banner">  
+                <image src="{{item}}" class="slide-image" width="355px" height="150px"/>  
+            </swiper-item>  
+        </block>  
+    </swiper>  
+</view>
+ 
+        <view class='goods'>
+            <image class='goodsImg' src="../images/cherry.png"></image>
+            <view class='goodsDetails'>
+                <text class='goodsTitle'>泰山脚下的大樱桃</text>
+                <text class='goodsDescribe'>适合在雨量充沛、日照充足、温度适宜的热带及亚热带地区生长，使其获得丰富维生素c</text>
+                <image src="../images/clock.gif" class='clock'></image>
+                <text class='timeLimit'>每日限定采摘100箱</text>
+                <button class='btnDetails' type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+                disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> 查看详情 </button>
+            </view>
+
+        </view>
+  
+    <view class='goods'>
+        <image class='goodsImg' src="../images/cherry.png"></image>
+        <view class='goodsDetails'>
+            <text class='goodsTitle'>泰山脚下的大樱桃</text>
+            <text class='goodsDescribe'>适合在雨量充沛、日照充足、温度适宜的热带及亚热带地区生长，使其获得丰富维生素c</text>
+            <image src="../images/clock.gif" class='clock'></image>
+            <text class='timeLimit'>每日限定采摘100箱</text>
+            <button class='btnDetails' type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+            disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> 查看详情 </button>
+        </view>
+
+    </view>
+ 

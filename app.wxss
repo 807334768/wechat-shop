@@ -1,0 +1,25 @@
+/**app.wxss**/
+
+page{
+  background:#fafafa;
+padding: 0;
+    margin:0;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+ 
+  box-sizing: border-box;
+} 
+view{
+  background: #f5f7f9;
+  font-size:1rem;
+  font-family:'微软雅黑';
+  overflow: hidden;
+}
+.red{
+ color: #B4282D ;
+}
