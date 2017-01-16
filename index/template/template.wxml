@@ -1,0 +1,17 @@
+
+<template name='recommend'>
+    <view class='goods'  wx:for='{{recommend}}'>
+            <view class='imgContent'>
+               <image class='goodsImg' src="{{item.recommendUrl}}"></image>
+            </view>
+            <view class='goodsDetails'>
+                <text class='goodsTitle'>{{item.recommendName}}</text>
+                <text class='goodsDescribe'>{{item.recommendInfo}}</text>
+                <image src="../images/clock.gif" class='clock'></image>
+                <text class='timeLimit'>每日限定采摘100箱</text>
+                <button class='btnDetails' type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+                disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> 查看详情 </button>
+            </view>
+        </view>
+</template>
+   

@@ -1,21 +1,31 @@
 {
   "pages":[
-    "shoppingCart/orderDetails/orderDetails",   
-    
+       
+   
+
     "index/index",
+    
     "good/index",
+
     "find/index",
+
     "mine/index",
+    "mine/setting/index",
+    "mine/address/index",
+   
     "shoppingCart/index",
+
+    "shoppingCart/orderDetails/orderDetails",  
+  
  
-     "mine/setting/setting",
+     
     "logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "吃货的店",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#2e3a4b",
+    "navigationBarTitleText": "dian店",
+    "navigationBarTextStyle":"#ffffff"
   },
   "tabBar":{
     "color": "#dddddd",

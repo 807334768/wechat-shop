@@ -1,0 +1,21 @@
+/* mine/setting/setting.wxss */
+
+.settingList{
+    display: flex;
+    justify-content: space-between;
+    height:100rpx;
+    line-height:100rpx;
+    
+    font-size:32rpx;
+    color: #404040;
+
+}
+.settingTitle{
+    font-size: 32rpx;
+    color: #404040;
+}
+.settingOption{
+ 
+font-size: 28rpx;
+color: #7A858D;
+}

@@ -1,0 +1,13 @@
+<view class='goodsContent'>
+    <image src="../images/goods.png" class='goodsImg'></image>
+    <view class='preView'>
+        <text class='preSale'>预售</text>
+        <text class='preTitle'>泰山脚下的大樱桃</text>
+    </view>
+    <view class='preText'>
+    原产于热带美洲西印度群岛加勒比海地区，因此又叫西印度樱桃适合在雨量充沛、日照充足、温度适宜的热带及亚热带地区生。
+    </view>
+    <view class='deliveryGoods'>
+        当天采摘当天发货
+    </view>
+</view>

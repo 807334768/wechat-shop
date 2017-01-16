@@ -1,4 +1,4 @@
-// mind/index.js
+// mine/address/index.js
 Page({
   data:{},
   onLoad:function(options){

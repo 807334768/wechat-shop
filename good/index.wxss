@@ -1,1 +1,62 @@
 /* good/index.wxss */
+.goodsContent{
+    width: 100%;
+    background: #ffffff;
+    margin-top: 20px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.goodsImg{
+     width: 90.5%;
+    margin: auto;
+    display: block;
+}
+.preView{
+   width: 90.5%;
+    margin: auto;
+    margin-top:20rpx;
+}
+.preSale{
+    display: inline-block;
+    position: relative;
+    padding:3px 6px ;
+    font-size:24rpx;
+    color:#ffffff;
+    background: #84B94A;
+   
+    }
+ .preSale::after{
+     content:'';
+     position:absolute;
+     top:1px;
+    left:36px;
+    width:0;
+    height:0;
+    border-top:11px solid transparent; 
+    border-bottom: 11px solid transparent; 
+    border-left: 11px solid #84B94A;
+
+ }   
+ .preTitle{
+    display: inline-block;
+     margin-left:30rpx;
+position:relative;
+top:2px;
+
+
+ }
+.preText{
+    width: 90.5%;
+    margin: auto;
+    margin-top:15rpx;
+    font-size:24rpx;
+    color:#7E838C ;
+    padding:0;
+}
+.deliveryGoods{
+   width: 90.5%;
+    margin: auto;
+    margin-top:20rpx;
+font-size: 28rpx;
+color: #FF3939;
+}

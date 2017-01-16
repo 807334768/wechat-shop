@@ -1,0 +1,37 @@
+
+<view class='borderBottom bgWhite paddingLR marginBottom15 settingNav'>
+    <navigator url='../mine/index' class='goBack'>←</navigator>
+    设置
+</view>
+<navigator  url='../address/index'  class='bgWhite borderTop settingList paddingLR'>
+    <view class='settingTitle'>
+        用户名
+    </view>
+    <view class='settingOption'>
+        Yeon>
+    </view>
+</navigator>
+<navigator  url='../address/index'  class='bgWhite borderTop settingList paddingLR'>
+    <view class='settingTitle'>
+       手机号
+    </view>
+    <view class='settingOption '>
+      <text class='blue '> 156****0415></text>
+    </view>
+</navigator>
+<navigator url='../index' class='bgWhite borderTop settingList paddingLR'>
+    <view class='settingTitle'>
+        绑定微信
+    </view>
+    <view class='settingOption'>
+        Yeon>
+    </view>
+</navigator>
+<navigator url='../address/index' redirect='true' class='bgWhite borderTop borderBottom settingList paddingLR'>
+    <view class='settingTitle'>
+        地址管理
+    </view>
+    <view class='settingOption'>
+        >
+    </view>
+</navigator>

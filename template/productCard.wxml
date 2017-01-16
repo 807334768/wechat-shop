@@ -1,0 +1,12 @@
+<template name='productCard'>
+    <view class='product-card'>
+        <navigator url=''>
+            <view style='background-image:url({{cover_image}})' class='product-cover'>           
+            </view>
+            <view>
+                <text class='product-title'>{{title}}</text>
+                 <text class='product-title'>{{title}}</text>
+            </view>
+        </navigator>
+    </view>
+</template>

@@ -1,0 +1,30 @@
+<view class='borderBottom bgWhite paddingLR marginBottom15 settingNav'>
+    <navigator url='../setting/index' class='goBack'>←</navigator>
+    地址管理
+</view>
+<view class='marginBottom15 bgWhite borderTop borderBottom addressList'>
+    <image class='checkIcon' src="../../images/check.png"></image>
+    <view class='addressContent'>
+        <text class='addressPeople'>
+            <text class='addressName'>王妍</text>
+            <text class='addressTel'>15652790415</text>
+        </text>
+        <text class='addressDetails'>北京市朝阳区山水广场3号元元12号楼</text>
+    </view>
+    <image class='editAddress' src="../../images/edit.png"></image>
+</view>
+
+<view class='marginBottom15 bgWhite borderTop borderBottom addressList'>
+    <image class='checkIcon' src="../../images/uncheck.png"></image>
+    <view class='addressContent'>
+        <text class='addressPeople'>
+            <text class='addressName'>王妍</text>
+            <text class='addressTel'>15652790415</text>
+        </text>
+        <text class='addressDetails'>北京市通州区二期17号楼二单元2002</text>
+    </view>
+    <image class='editAddress' src="../../images/edit.png"></image>
+</view>
+
+
+<view class='red bgWhite borderTop addAddress'>+  新增地址</view>

@@ -1,2 +1,46 @@
 <!--shoppingCart/index.wxml-->
-<text>shoppingCart/index.wxml</text>
+<view class='borderBottom bgWhite paddingLR marginBottom15 settingNav'>
+    <navigator url='../mine/setting/index' class='goBack'>←</navigator>
+    购物车
+</view>
+<view class='bgWhite borderBottom marginBottom15 shoppingList'>
+    <view class='borderBottom positionR shoppingName'>
+        <image class='checkIcon' src="../../images/uncheck.png"></image>泰山脚下
+    </view>
+    <view class='positionR shoppingOption'>
+        <image class='checkIcon' src="../../images/check.png"></image>
+        <view class='topBottom shoppingRight'>
+            <image class='shoppingSnapshot' src="../images/cherry.png"></image>
+            <view class='shoppingPrice'>
+                <text class='shoppingTitle'>泰山脚下的大樱桃</text>
+                <text class='shoppingNumbers'>5000g/份</text>
+                <text class='shoppingP'>￥189.00</text>
+            </view>
+            <view class='shoppingNum'>
+                <button class='shoppingBtn minus'>-</button>
+                <input class='shoppingInput' value='1' readonly disabled></input>
+                <button class='shoppingBtn plus'>+</button>
+            </view>
+        </view>
+    </view>
+
+    <view class='positionR shoppingOption '>
+        <image class='checkIcon' src="../../images/check.png"></image>
+        <view class='topBottom shoppingRight '>
+            <image class='shoppingSnapshot' src="../images/cherry.png"></image>
+            <view class='shoppingPrice'>
+                <text class='shoppingTitle'>泰山脚下的大樱桃</text>
+                <text class='shoppingNumbers'>5000g/份</text>
+                <text class='shoppingP'>￥189.00</text>
+            </view>
+            <view class='shoppingNum'>
+                <button class='shoppingBtn minus'>-</button>
+                <input class='shoppingInput' value='1' readonly disabled></input>
+                <button class='shoppingBtn plus'>+</button>
+            </view>
+        </view>
+    </view>
+
+</view>
+
+

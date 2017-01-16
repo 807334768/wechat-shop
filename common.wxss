@@ -1,0 +1,55 @@
+/**/
+.paddingLR{
+  padding-left:20rpx;
+  padding-right:20rpx;
+}
+.red{
+ color: #B4282D ;
+}
+.blue{
+  color:#5B99EE;
+}
+.floatLeft{
+  float:left;
+}
+.bgWhite{
+  background:#ffffff;
+}
+.borderBottom{
+border-bottom:1rpx solid #E9E9E9 ;
+}
+.borderTop{
+    border-top:1rpx solid #E9E9E9 ;
+}
+.marginBottom15{
+  margin-bottom:30rpx;
+}
+.positionR{
+  position:relative;
+}
+
+.settingNav{
+    position: relative;
+text-align: center;
+font-size: 36rpx;
+color: #796F6A;
+letter-spacing: 1px;
+height:80rpx;
+line-height:80rpx;
+}
+.goBack{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:20rpx;
+    margin: auto;
+}
+.checkIcon{
+   width:55rpx;
+   height:55rpx;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:10px;
+    margin: auto;
+}
